@@ -19,6 +19,7 @@
 		"vscode": {
 			"extensions": [
 				"esbenp.prettier-vscode",
+				"formulahendry.code-runner",
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight"
 			],
