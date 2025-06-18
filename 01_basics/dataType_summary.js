@@ -1,35 +1,24 @@
-//  Primitive
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+// memory
 
-const score = 100
-const scoreValue = 100.3
+// stack(primitive),heap(non-primitive)
 
-const isLoggedIn = false // boolean
-const outsideTemp = null
-let userEmail;
+let myYoutubename="amaanahmed.prep"
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
-
-console.log(id === anotherId);
-
-// const bigNumber = 3456543576654356754n
+let anothername=myYoutubename // iska copy gya hai
+anothername="chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
 
 
-
-// Reference (Non primitive)
-
-// Array, Objects, Functions
-
-const heros = ["shaktiman", "naagraj", "doga"];
-let myObj = {
-    name: "hitesh",
-    age: 22,
+let userone={
+    email:"amaan@gmail.com",
+    upi:"user@yblk"
 }
 
-const myFunction = function(){
-    console.log("Hello world");
-}
+let userTwo=userone
+userTwo.email="amaanahaha@gmailcom"
 
-console.log(typeof anotherId);
+console.log(userone.email);
+console.log(userTwo.email);
+
