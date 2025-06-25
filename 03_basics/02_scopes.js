@@ -33,12 +33,12 @@ if (true) {
     const username = "hitesh"
     if (username === "hitesh") {
         const website = " youtube"
-        // console.log(username + website);
+        // console.log(username + website);  // no error
     }
-    // console.log(website);
+    // console.log(website); //error
 }
 
-// console.log(username);
+// console.log(username); // error
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
