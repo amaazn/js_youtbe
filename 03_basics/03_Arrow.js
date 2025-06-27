@@ -48,6 +48,6 @@ const user = {
 const addTwo = (num1, num2) => ({username: "hitesh"})  // i am returing an object in this tpye no need write return
 
 
-//console.log(addTwo(3, 4))
+console.log(addTwo(3, 4))
 
 
