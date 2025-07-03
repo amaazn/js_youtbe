@@ -11,7 +11,8 @@
 </body>
 <script>
     const div = document.createElement('div')
-    console.log(div);
+     console.log(div);
+     console.log(typeof div);
     div.className = "main"
     div.id = Math.round(Math.random() * 10 + 1)
     div.setAttribute("title", "generated title")
@@ -20,6 +21,7 @@
 
    // div.innerText = "Chai aur code"
     const addText = document.createTextNode("Chai aur code")
+    console.log(typeof addText)
     div.appendChild(addText)
 
     document.body.appendChild(div)
