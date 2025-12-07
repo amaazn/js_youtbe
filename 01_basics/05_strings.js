@@ -12,7 +12,7 @@ const gameName = new String('hitesh-hc-com')// here string is abn object when we
 
 
 // console.log(gameName.length);  // functions
-// console.log(gameName.toUpperCase()); // original valu eois not changed beacuse of primitive type and stack memory
+// console.log(gameName.toUpperCase()); // original valu e is not changed beacuse of primitive type and stack memory
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
