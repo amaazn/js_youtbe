@@ -5,14 +5,14 @@ const repoCount = 50
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('hitesh-hc-com')
+const gameName = new String('hitesh-hc-com')// here string is abn object when we will check in console key value pair
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
 
 
-// console.log(gameName.length);
-// console.log(gameName.toUpperCase());
+// console.log(gameName.length);  // functions
+// console.log(gameName.toUpperCase()); // original valu eois not changed beacuse of primitive type and stack memory
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
@@ -28,8 +28,11 @@ console.log(newStringOne.trim());
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 
-console.log(url.replace('%20', '-'))
+console.log(url.replace('%20', '-'))// browser sometime convert space to %20
 
 console.log(url.includes('sundar'))
 
 console.log(gameName.split('-'));
+
+
+
