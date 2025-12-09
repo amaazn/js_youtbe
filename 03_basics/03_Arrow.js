@@ -3,7 +3,7 @@ const user = {
     price: 999,
 
     welcomeMessage: function() {
-        //console.log(`${this.username} , welcome to website`);
+        //console.log(`${this.username} , welcome to website`);    // here this refer to the current context
         //console.log(this);
     }
 
@@ -16,8 +16,8 @@ const user = {
  console.log(this);  // global context is empty
 
 // function chai(){
-//     let username = "hitesh"
-//     console.log(this.username);
+//     let username = "hitesh" 
+//     console.log(this.username);  // we cannot use this here only used with object as above
 // }
 
 // chai()
@@ -28,6 +28,8 @@ const user = {
 // }
 
 // chai()
+
+//******************** ARROW
 
 // const chai =  () => {
 //     let username = "hitesh"
