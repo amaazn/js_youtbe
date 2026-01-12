@@ -69,7 +69,7 @@ function displayMessage(message){
 function endGame(){
   userInput.value = '';
   userInput.setAttribute('disabled', ''); // new
-  p.classList.add('button');
+  p.classList.add('button'); // new button  create kiya hai
   p.innerHTML = `<h2 id="newGame">Start new Game</h2>`;
   startOver.appendChild(p);// startover mai daal diya
   playGame = false;
@@ -78,7 +78,7 @@ function endGame(){
 }
 
 function newGame(){
-   const newGameButton = document.querySelector('#newGame');
+   const newGameButton = document.querySelector('#newGame');  // just uppar se selct kiya
   newGameButton.addEventListener('click', function (e) {
     randomNumber = parseInt(Math.random() * 100 + 1);  // setting new number
     prevGuess = []; //ko khali kar diya
