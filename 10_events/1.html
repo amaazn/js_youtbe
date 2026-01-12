@@ -26,10 +26,12 @@
 
 
 // document.getElementById('images').addEventListener('click', function(e) {
+//     console.log(e.target);
 //     console.log("clicked inside the ul");
 // });
 
 // document.getElementById('owl').addEventListener('click', function(e) {
+//     console.log(e.target);
 //     console.log("owl clicked");
 //     e.stopPropagation();
 // });
@@ -63,7 +65,7 @@ document.querySelector('#images').addEventListener('click', function(e){
          console.log(e.target);
         if (e.target.tagName === 'IMG') {
             console.log(e.target.id);
-            let removeIt = e.target.parentNode
+            let removeIt = e.target.parentNode  // IMG ka parent is li and we want to remove .(dot) and image
             removeIt.remove()
         }
     
