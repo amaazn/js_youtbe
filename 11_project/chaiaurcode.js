@@ -13,7 +13,7 @@ const randomColor = function () {
 
 let intervalId;
 const startChangingColor=function(){
-  if(!intervalId){
+  if(!intervalId){  // if hta du still it will work
     intervalId=setInterval(changeBgColor,1000);
 
   }
@@ -25,7 +25,7 @@ const startChangingColor=function(){
 
 const stopChangingColor=function(){
   clearInterval(intervalId);
-  intervalId=null // clean code
+  intervalId=null // clean code no use still works
 }
 
 
